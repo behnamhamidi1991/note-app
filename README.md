@@ -1,7 +1,1 @@
-# React notes manager
-
-## Getting Started
-```bash
-npm i
-npm start
-```
+To the end of video 4, start from 5.
