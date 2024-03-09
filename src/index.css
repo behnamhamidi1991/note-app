@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto";
+}
+
+:root {
+  --primary-color: #003041;
+  --secondary-color: #fffaff;
+  --post-color: #424f60;
+  --main-color: #e4665c;
+}
+
+.dark {
+  --primary-color: #003041;
+  --secondary-color: #fffaff;
+  --post-color: #424f60;
+  --main-color: #e4665c;
+}
+
+.light {
+  --primary-color: #fffaff;
+  --secondary-color: #003041;
+  --post-color: #f2f2f2;
+  --main-color: #e4665c;
+}
+
+h1 {
+  font-family: "Poppins";
+}
+
+body {
+  background-color: ;
+}
