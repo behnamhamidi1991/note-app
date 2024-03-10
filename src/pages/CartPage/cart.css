@@ -1,0 +1,72 @@
+.cart-page {
+  padding: 50px 10%;
+}
+
+.cart-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-page-header {
+  margin-bottom: 39px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-page-header-icon {
+  font-size: 90px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.cart-box {
+  background-color: rgb(48, 54, 71);
+  padding: 15px 20px;
+  position: relative;
+}
+
+.btn {
+  border: none;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.increment {
+  background-color: rgb(0, 128, 117);
+}
+
+.decrement {
+  background-color: tomato;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.cart-btn-container {
+  margin-top: 12px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: tomato;
+}

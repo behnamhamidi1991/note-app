@@ -34,10 +34,10 @@ const Header = () => {
         <div className="sun-box">
           <LuSunMedium className="icon" />
         </div>
-        <div className="cart-box">
+        <Link to="/cart" className="header-cart-box">
           <FaShoppingCart className="icon cart-icon" />
           <span className="cart-num">1</span>
-        </div>
+        </Link>
       </ul>
     </header>
   );
